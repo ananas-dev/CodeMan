@@ -1,0 +1,152 @@
+/*
+ * Globals
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #7289da;
+  border: .05rem solid #7289da;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #2C2F33;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.head-section {
+  background-color: #44A963;
+}
+
+.body-section {
+  background-color: #2C2F33;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.row {
+  width: 100%;
+}
+
+.banner {
+  background-color: #44A963;
+}
+
+.documentation {
+  margin-top: 2rem;
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.logo {
+  max-width: 6%;
+  height: auto;
+  margin: 3rem;
+  margin-bottom: 1rem;
+  background-color: #44A963;
+}
+
+.title {
+  font-style: bold;
+}
+
+.pretty-blockquote {
+  width:70%;
+  border-left:8px solid #44A963 ;
+  padding-left:0.4rem;
+  line-height:1.6;
+  background:#36393f;
+  font-family: 'Source Code Pro', monospace;
+}
+
+
+/*
+ * Footer
+ */
+
+.footer {
+  margin-top: 2rem;
+}
