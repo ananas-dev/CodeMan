@@ -134,9 +134,9 @@ body {
 }
 
 .pretty-blockquote {
-  width:70%;
-  border-left:8px solid #44A963 ;
-  padding-left:0.4rem;
+  width:100%;
+  border-left:0.5rem solid #44A963 ;
+  padding-left:0.5rem;
   line-height:1.6;
   background:#36393f;
   font-family: 'Source Code Pro', monospace;
